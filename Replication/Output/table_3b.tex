@@ -1,0 +1,24 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lcccccccccc} \hline
+ & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) \\
+VARIABLES & gradrate6yr & gradrate6yr & gradrate6yr & gradrate6yr & womengradrate6yr & mengradrate6yr & urmgradrate6yr & nonurmgradrate6yr & gradrate6yr & gradrate6yr \\ \hline
+ &  &  &  &  &  &  &  &  &  &  \\
+block1 & 0.010 & 0.002 & -0.011 & -0.013 & -0.013 & -0.011 & -0.020 & -0.010 & -0.013 & -0.010 \\
+ & (0.019) & (0.013) & (0.009) & (0.008) & (0.010) & (0.008) & (0.013) & (0.009) & (0.009) & (0.007) \\
+block2 & 0.024 & 0.016 & -0.012 & -0.013 & -0.016 & -0.008 & -0.026 & -0.012 & -0.012 & -0.019* \\
+ & (0.018) & (0.014) & (0.010) & (0.010) & (0.012) & (0.010) & (0.019) & (0.011) & (0.011) & (0.011) \\
+Constant & 0.524*** & 0.464*** & -0.937*** & -1.444 & 0.685 & -3.084** & -6.226*** & -0.955 & -1.478 & -1.512 \\
+ & (0.003) & (0.072) & (0.080) & (1.129) & (1.145) & (1.222) & (1.886) & (1.070) & (1.277) & (2.343) \\
+ &  &  &  &  &  &  &  &  &  &  \\
+Observations & 13,737 & 13,737 & 13,737 & 13,737 & 13,713 & 13,672 & 13,731 & 13,647 & 6,346 & 7,391 \\
+R-squared & 0.954 & 0.959 & 0.978 & 0.979 & 0.970 & 0.971 & 0.924 & 0.948 & 0.981 & 0.966 \\
+School FE & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Year FE & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Controls & No & Yes & No & Yes & No & No & No & No & No & No \\
+ Time Trends & No & No & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\ \hline
+\multicolumn{11}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{11}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}

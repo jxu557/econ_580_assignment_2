@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\dell\OneDrive - UW-Madison\Desktop\Replication\Output
+> \table_2_means.txt
+  log type:  text
+ opened on:  23 Feb 2024, 15:38:17
+
+. sum  faculty costs instatetuition totcohortsize per_urm per_white per_fem
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+     faculty |     13,737    342.2824    383.7092         18       3438
+       costs |     13,737    193.2703    402.2498          0   5988.427
+instatetui~n |     13,737     11064.7    9205.974          0      42600
+totcohorts~e |     13,737    1107.031    1186.419         18       8533
+     per_urm |     13,737    .2481478    .2318178          0          1
+-------------+---------------------------------------------------------
+   per_white |     13,737    .7088702    .2453322          0          1
+     per_fem |     13,737    .5602862    .1002147          0          1
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\dell\OneDrive - UW-Madison\Desktop\Replication\Output
+> \table_2_means.txt
+  log type:  text
+ closed on:  23 Feb 2024, 15:38:17
+---------------------------------------------------------------------------
